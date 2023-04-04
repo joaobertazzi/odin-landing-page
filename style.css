@@ -12,6 +12,7 @@ body {
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 ul {
@@ -26,3 +27,4 @@ ul {
 li {
     margin-right: 16px;
 }
+
