@@ -5,7 +5,8 @@ body {
 }
 
 .header,
-.first-section {
+.first-section,
+.second-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,4 +49,47 @@ li {
     border-radius: 6px;
     font-size: 14px;
     background-color: #3882F6;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.cards-collection {
+    padding-top: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.img-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 16px;
 }
