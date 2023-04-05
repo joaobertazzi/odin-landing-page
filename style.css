@@ -58,7 +58,7 @@ li {
     padding-top: 15px;
 }
 
-.container {
+.second-section .container {
     width: 100%;
     display: flex;
     flex-direction: column;
