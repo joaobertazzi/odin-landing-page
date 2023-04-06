@@ -3,6 +3,7 @@
 body {
     font-family: Roboto, sans-serif;
     min-height: 100vh;
+    margin: 0;
 }
 
 .header,
@@ -164,4 +165,16 @@ li {
     border-radius: 6px;
     font-size: 14px;
     background-color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: #F9FAF8;
+    padding: 15px 0;
 }
